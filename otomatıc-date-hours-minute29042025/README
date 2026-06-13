@@ -1,0 +1,158 @@
+# Digital Clock Web Application
+
+## Description
+
+Digital Clock Web Application is a lightweight front-end project developed using HTML, CSS, and JavaScript.
+
+The application displays the current system time in a clean digital clock interface and updates automatically in real time. It demonstrates fundamental web development concepts such as DOM manipulation, time-based functions, and dynamic content rendering.
+
+This project was created as a practical exercise to strengthen JavaScript programming skills and understand real-time user interface updates.
+
+## Technologies
+
+The project was developed using the following technologies:
+
+* HTML5
+* CSS3
+* JavaScript (Vanilla JavaScript)
+
+## Features
+
+### Real-Time Time Display
+
+* Displays the current system time
+* Automatically updates every second
+* No page refresh required
+
+### Dynamic User Interface
+
+* Live DOM updates
+* Responsive clock rendering
+* Minimal and clean design
+
+### Automatic Time Formatting
+
+* Leading zero formatting
+* Consistent digital clock appearance
+* Easy-to-read display format
+
+### Lightweight Architecture
+
+* No external libraries
+* No frameworks required
+* Pure client-side implementation
+
+## Technologies Demonstrated
+
+This project showcases practical implementation of:
+
+* JavaScript Date Object
+* DOM Manipulation
+* Event Scheduling
+* Real-Time UI Updates
+* HTML Structure
+* CSS Styling
+* Front-End Development Fundamentals
+
+## Project Structure
+
+```text
+digital-clock/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## Installation
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/your-username/digital-clock-web-app.git
+
+cd digital-clock-web-app
+```
+
+### Run the Application
+
+No installation process is required.
+
+Simply open the `index.html` file in any modern web browser.
+
+Alternatively, launch a local development server:
+
+```bash
+python -m http.server 8000
+```
+
+Then navigate to:
+
+```text
+http://localhost:8000
+```
+
+## Usage
+
+### Step 1: Open the Application
+
+Launch the project in a web browser.
+
+### Step 2: View Current Time
+
+The application automatically displays the current system time.
+
+### Step 3: Real-Time Updates
+
+The displayed time updates continuously without requiring user interaction.
+
+## Application Workflow
+
+The system performs the following operations:
+
+1. Retrieves the current system time using JavaScript.
+2. Extracts hour and minute values.
+3. Formats values using leading zeros when necessary.
+4. Updates the displayed content within the DOM.
+5. Refreshes the displayed time every second using a timer function.
+
+## Example Output
+
+```text
+14 : 08
+```
+
+## Learning Objectives
+
+This project demonstrates:
+
+* JavaScript Functions
+* Working with Date Objects
+* DOM Element Selection
+* Dynamic Content Rendering
+* Real-Time User Interface Updates
+* Event Scheduling with setInterval()
+* Front-End Application Development
+
+## Limitations
+
+* Displays local system time only.
+* No timezone selection support.
+* No date display functionality.
+* No alarm or timer features.
+* No synchronization with external time services.
+
+## Future Improvements
+
+Potential enhancements include:
+
+* Seconds Display
+* Current Date Display
+* Multiple Time Zones
+* 12-Hour and 24-Hour Formats
+* Dark Mode Support
+* Alarm Functionality
+* Stopwatch Feature
+* Countdown Timer
+* Responsive Mobile Design
