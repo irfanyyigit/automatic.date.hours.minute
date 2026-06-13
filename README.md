@@ -92,15 +92,3 @@ Each criterion met increases the overall strength score, providing a comprehensi
 ## Security Note
 
 Your security is our priority. All password analysis occurs entirely on your device. Your passwords are never sent to any server or external service.
-
----
-
-## Author
-
-Developed for password security awareness
-
----
-
-## License
-
-This project is open source and available for educational and personal use.
